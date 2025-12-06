@@ -824,9 +824,7 @@ details p {
     font-size: 1rem;
     color: var(--tertiary);
 }
-/* -----------------------------------------------------------------
-   TRENDING CITIES SECTION
------------------------------------------------------------------ */
+
 .cities-section {
     padding: 120px 0;
     background: linear-gradient(to bottom, #F2F1E8, var(--white));
@@ -866,11 +864,10 @@ details p {
     transform: scale(1.1);
 }
 
-/* Gradients to represent cities without images */
-.city-1 { background: linear-gradient(to bottom right, #4E635E, #2C3531); } /* Bhopal (Greenery) */
-.city-2 { background: linear-gradient(to bottom right, #A6B49E, #818C78); } /* Indore (Clean) */
-.city-3 { background: linear-gradient(to bottom right, #E2E0C8, #BFBCA0); } /* Mumbai (Warm) */
-.city-4 { background: linear-gradient(to bottom right, #5C665F, #3D4F4A); } /* Delhi (Urban) */
+.city-1 { background: linear-gradient(to bottom right, #4E635E, #2C3531); }
+.city-2 { background: linear-gradient(to bottom right, #A6B49E, #818C78); }
+.city-3 { background: linear-gradient(to bottom right, #E2E0C8, #BFBCA0); }
+.city-4 { background: linear-gradient(to bottom right, #5C665F, #3D4F4A); }
 
 .city-content {
     position: absolute;
